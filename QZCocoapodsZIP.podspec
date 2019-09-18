@@ -31,7 +31,7 @@ An example of hosting compressed files with cocoapods.
   s.ios.deployment_target = '8.0'
   s.requires_arc = true
   # s.source_files = 'QZCocoapodsZIP/Classes/**/*'
-  # s.resource = 'framework/*.{bundle}'
+  s.resource = 'QZZIP/*.{bundle}'
   s.library   = "c++.1"
   # s.resource_bundles = {
   #   'QZCocoapodsZIP' => ['QZCocoapodsZIP/Assets/*.png']
@@ -39,6 +39,6 @@ An example of hosting compressed files with cocoapods.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
-  # s.vendored_frameworks ='QZTestFramework.framework','sdk_oauth.bundle','TYRZSDK.framework'
+  s.vendored_frameworks ='QZZIP/QZTestFramework.framework','QZZIP/TYRZSDK.framework'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
