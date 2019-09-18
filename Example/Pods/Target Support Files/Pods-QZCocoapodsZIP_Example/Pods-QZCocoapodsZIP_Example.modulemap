@@ -1,0 +1,6 @@
+framework module Pods_QZCocoapodsZIP_Example {
+  umbrella header "Pods-QZCocoapodsZIP_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - QZCocoapodsZIP (0.1.0)
+
+DEPENDENCIES:
+  - QZCocoapodsZIP (from `../`)
+
+EXTERNAL SOURCES:
+  QZCocoapodsZIP:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QZCocoapodsZIP: c640cbcc38eed8a36c1bfe5aed9e5ffc38199d59
+
+PODFILE CHECKSUM: 69eaf81336b5cb1bec6e3f307a5c2b24339d635c
+
+COCOAPODS: 1.7.5
