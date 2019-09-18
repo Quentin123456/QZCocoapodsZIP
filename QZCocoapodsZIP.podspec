@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QZCocoapodsZIP'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A ZIP file hosting.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ An example of hosting compressed files with cocoapods.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Quentin123456' => 'quentinzang@gmail.com' }
-  s.source           = { :http => 'http://pxwu3nbgl.bkt.clouddn.com/QZCocoapodsZIP.zip' }
+  s.source           = { :http => 'http://pxwu3nbgl.bkt.clouddn.com/QZZIP.zip' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -39,6 +39,6 @@ An example of hosting compressed files with cocoapods.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
-  s.vendored_frameworks ='QZTestFramework.framework','sdk_oauth.bundle'
+  # s.vendored_frameworks ='QZTestFramework.framework','sdk_oauth.bundle','TYRZSDK.framework'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
